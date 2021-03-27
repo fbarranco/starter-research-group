@@ -1,5 +1,5 @@
 ---
-title: "An example journal article"
+title: "Real-time architecture for a robust multi-scale stereo engine on FPGA"
 authors:
 - Matteo Tomasi 
 - Mauricio Vanegas 
