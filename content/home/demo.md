@@ -54,6 +54,6 @@ Welcome to the Computer Vision and Robotics Lab, part of the [Department of Comp
 
 We have long expertise on low-level image processing: we have done optical flow algorithms (energy based, gradient based, block matching, etc) and similar approaches for stereo models; we have also models for foreground/background substraction (in surveillance applications) and local contrast descriptors (pixel wise orientation, energy, intrinsic dimensionality, etc). We are also interested in multi-perspective vision, autonomous navigation, or structure from motion, specially any processing from motion that can be achieved in real-time. We have worked in different fields bus specially on ADAS (Advanced Driving Assistance Systems for cars), autonomous navigation with UAVs, video-surveillance applications, robotics. 
 
-
-{{< figure src="ugr_logo.jpg" caption="Univ. Granada" >}} {{< figure src="atc_logo.jpg" caption="Dep. ATC - UGR" >}}
+![alt-text-1](ugr_logo.jpg "Univ. Granada") ![alt-text-2](atc_logo.jpg "Dep. ATC - UGR")
+# {{< figure src="ugr_logo.jpg" caption="Univ. Granada" >}} {{< figure src="atc_logo.jpg" caption="Dep. ATC - UGR" >}}
 
