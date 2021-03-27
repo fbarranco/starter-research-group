@@ -1,6 +1,3 @@
-I am addin docs here, is it possible?
-
-
 ---
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
