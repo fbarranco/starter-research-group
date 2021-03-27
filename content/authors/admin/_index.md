@@ -59,7 +59,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
+- Principal Investigators
 ---
 
 Francisco Barranco is an Associate Professor of Computer Engineering at Universidad de Granada, Spain. He is one of the PI of the Computer Vision and Robotics Lab. His research interests include motion estimation, visual attention, segmentation from motion, stereo methods, and machine learning in applications such as ADAS, navigation, or Robotics. He is also focused on real-time solutions for estimation using massively parallel architectures (FPGAs, GPUs, SoMs...). He is also interested in neuromorphic engineering and in general, biologically-inspired strategies.
