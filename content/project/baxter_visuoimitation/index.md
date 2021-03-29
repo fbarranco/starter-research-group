@@ -1,5 +1,5 @@
 ---
-title: Visuoimitation: Baxter imitates movements looking at an operator
+title: Visuoimitation - Baxter imitates movements looking at an operator
 summary: The objective of the system is to control a baxter robot using the kinect V2 and tis body structure extraction modules (body tracking) under the ROS (Robot Operating System) framework. Modules will be developed to make an interface between the robot and the Kinect body pose estimation so that the robot can imitate the movements of the operator in real time
 
 tags:
