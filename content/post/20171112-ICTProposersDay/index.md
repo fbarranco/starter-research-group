@@ -1,5 +1,5 @@
 ---
-title: CVR Lab ta the ICT Proposer's Day
+title: CVR Lab at the ICT Proposer's Day
 date: 2017-11-12
 ---
 
