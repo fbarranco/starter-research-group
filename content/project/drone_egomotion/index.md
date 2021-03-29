@@ -3,7 +3,7 @@ title: Egomotion estimation methods for drones
 summary: This project integrates the bebop_autonomy package with ORB-SLAM2 in the ROS platform, to do localization and mapping using the Parrot Bebop2 drone. Applications are mainly indoor navigation and mapping.
 
 tags:
-- Drone
+- Drones
 - Egomotion
 - Bebop
 date: "2019-04-27T00:00:00Z"
