@@ -79,11 +79,32 @@ Baxter classifies objects on the top of a table, setting them aside.
 
 The project must be added in the src folder from the workspace and can be launched after it is built from a sourced terminal.
 
+{{< youtube wTfLTKC_PFo >}}
+
+Open a new terminal:
+
+    $ source /opt/ros/kinetic/setup.bash
+    $ source ros_ws/devel/setup.bash
+    $ cd ros_ws/
+    $ ./baxter.sh
+    $ catkin_make
+    $ roslaunch classif classification.launch
+
 ## Dynamic environment classification using a wedge
 
 For making this classification, the speed of the objects on the conveyor belt has to be calculated. Then, the Baxter robot will predict where the objects are to separate them.
 
+{{< youtube crF7NCy9WJw >}}
+
 The project must be added in the src folder from the workspace and can be launched after it is built from a sourced terminal.
+Open a new terminal:
+
+    $ source /opt/ros/kinetic/setup.bash
+    $ source ros_ws/devel/setup.bash
+    $ cd ros_ws/
+    $ ./baxter.sh
+    $ catkin_make
+    $ roslaunch dyn_wedge dyn_wedge.launch
 
 ## Dynamic environment classification using a paddle
 
@@ -91,6 +112,16 @@ For making this classification, the speed of the objects on the conveyor belt ha
 
 The project must be added in the src folder from the workspace and can be launched after it is built from a sourced terminal.
 
+{{< youtube BypfZhM5Lto >}}
+
+Open a new terminal:
+    
+    $ source /opt/ros/kinetic/setup.bash
+    $ source ros_ws/devel/setup.bash
+    $ cd ros_ws/
+    $ ./baxter.sh
+    $ catkin_make
+    $ roslaunch dyn_classif dyn_classif.launch
 
 # Packages
 
@@ -99,19 +130,7 @@ The project must be added in the src folder from the workspace and can be launch
 * **dyn_wedge**. Classification in a dynamic environment using a wedge.
 * **pick_and_place**. Adapted pick and place program for executing it in the Baxter robot.
 
-{{< youtube wTfLTKC_PFo >}}
-
 The files included by this packages are:
 * baxter_img.cpp: This C++ program identifies the objects in the image, visualizes them and calculates the middle point between the two groups of objects, sending them to the control file.
 * file.py: It is the control file, it subscribes to the "clasificacion" or "detected_objects" topic and plans the trajectories and execute them to separate or pick the objects.
 * file.launch: This launch file runs all the required nodes to accomplish the task.
-
-This packages must be added in the src folder from the ROS workspace and can be launched after it is built from a sourced terminal.
-
-    $ source /opt/ros/kinetic/setup.bash
-    $ source ros_ws/devel/setup.bash
-    $ cd ros_ws/
-    $ ./baxter.sh
-    $ catkin_make
-    $ roslaunch package file.launch
-
