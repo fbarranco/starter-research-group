@@ -29,10 +29,10 @@ subtitle = ""
   gradient_end = ""
   
   # Background image.
-  image = "image.png"  # Name of image in `static/media/`.
-  image_darken = 0.1  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-  image_size = "contain"  #  Options are `cover` (default), `contain`, or `actual` size.
-  image_position = "right"  # Options include `left`, `center` (default), or `right`.
+  # image = "image.png"  # Name of image in `static/media/`.
+  # image_darken = 0.1  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  # image_size = "contain"  #  Options are `cover` (default), `contain`, or `actual` size.
+  # image_position = "right"  # Options include `left`, `center` (default), or `right`.
   # image_parallax = false  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
