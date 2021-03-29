@@ -3,7 +3,7 @@ title: Drones for video surveillance applications
 summary: The final objective of this project is to provide autonomy to a drone, in order to do video surveillance tasks with it. The main tasks are people detection and people tracking using the video stream given by the onboard drone camera. To do this, computer vision and machine learning algorithms are used.
 
 tags:
-- Drone
+- Drones
 - Bebop
 - Deep Learning
 - Tracking
