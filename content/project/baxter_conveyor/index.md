@@ -30,11 +30,11 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+# slides: example
 ---
 
 # Object classification tasks using the Baxter robot
- This project shows the development of various classification tasks in static and dynamic environments with the Baxter robot. This robot will separate two groups of objects with different colours, positions and sizes, using the Robot Operating System (ROS Kinetic) on Ubuntu 16.04 LTS, MoveIt! and the OpenCV library for the computer vision, based on the colour filter made by [Maik Heufekes](https://github.com/cvr-lab/baxter_pick_and_place). Check the [Youtube videos](https://www.youtube.com/channel/UC9pq0ErS5dWzlCzpUrRdZlg/videos?view_as=subscriber).
+This project shows the development of various classification tasks in static and dynamic environments with the Baxter robot. This robot will separate two groups of objects with different colours, positions and sizes, using the Robot Operating System (ROS Kinetic) on Ubuntu 16.04 LTS, MoveIt! and the OpenCV library for the computer vision, based on the colour filter made by [Maik Heufekes](https://github.com/cvr-lab/baxter_pick_and_place). Check the [Youtube videos](https://www.youtube.com/channel/UC9pq0ErS5dWzlCzpUrRdZlg/videos?view_as=subscriber).
  
 # Prerequisites
 
