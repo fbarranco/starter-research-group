@@ -22,9 +22,8 @@ links:
   url: https://github.com/cvr-lab/dvs_bownership
 url_code: ""
 url_pdf: "http://www.umiacs.umd.edu/research/POETICON/DVSContours/resources/docs/1197.pdf"
-url_pdf: "http://www.umiacs.umd.edu/research/POETICON/DVSContours/resources/docs/supplementary_material.pdf"
-url_pdf: "http://www.umiacs.umd.edu/research/POETICON/DVSContours/resources/dataset/complexMotion3.zip"
-url_slides: ""
+url_dataset: "http://www.umiacs.umd.edu/research/POETICON/DVSContours/resources/dataset/complexMotion3.zip"
+url_slides: "http://www.umiacs.umd.edu/research/POETICON/DVSContours/resources/docs/supplementary_material.pdf"
 url_poster: "http://www.umiacs.umd.edu/research/POETICON/DVSContours/resources/docs/poster_iccv.pdf"
 url_video: "http://www.umiacs.umd.edu/research/POETICON/DVSContours/resources/videos/final_dvsBdBo.mp4"
 
