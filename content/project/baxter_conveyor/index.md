@@ -34,13 +34,14 @@ slides: example
 ---
 
 # Object classification tasks using the Baxter robot
- This project shows the development of various classification tasks in static and dynamic environments with the Baxter robot. This robot will separate two groups of objects with different colours, positions and sizes, using the Robot Operating System (ROS Kinetic) on Ubuntu 16.04 LTS, MoveIt! and the OpenCV library for the computer vision, based on the colour filter made by Maik Heufekes (https://github.com/cvr-lab/baxter_pick_and_place). Some videos are available at http://www.ugr.es/~cvrlab/projects/baxter_conveyor/baxter.html and https://www.youtube.com/channel/UC9pq0ErS5dWzlCzpUrRdZlg/videos?view_as=subscriber.
+ This project shows the development of various classification tasks in static and dynamic environments with the Baxter robot. This robot will separate two groups of objects with different colours, positions and sizes, using the Robot Operating System (ROS Kinetic) on Ubuntu 16.04 LTS, MoveIt! and the OpenCV library for the computer vision, based on the colour filter made by [Maik Heufekes](https://github.com/cvr-lab/baxter_pick_and_place). Check the [Youtube videos](https://www.youtube.com/channel/UC9pq0ErS5dWzlCzpUrRdZlg/videos?view_as=subscriber).
  
 # Prerequisites
 
    ## Workstation Setup
 
-To set the workstation, the tutorial from Rethink Robotics has been consulted (http://sdk.rethinkrobotics.com/wiki/Workstation_Setup), in this site you can find the installation of Ubuntu, the ROS specific version for that Ubuntu version, the Baxter SDK and the instructions for establishing the first comunication with the robot, which requires an Ethernet connection.
+To set the workstation, the tutorial from [Rethink Robotics has been consulted](http://sdk.rethinkrobotics.com/wiki/Workstation_Setup), in this site you can find the installation of Ubuntu, the ROS specific version for that Ubuntu version, the Baxter SDK and the instructions for establishing the first comunication with the robot, which requires an Ethernet connection.
+
     Example: Network Connection->Add->Ethernet
     Connection name: Baxter
     IPv4 Settings: Method: Manual
@@ -48,14 +49,13 @@ To set the workstation, the tutorial from Rethink Robotics has been consulted (h
    
    ## MoveIt
 
-   MoveIt! is used for the motion planning, manipulation and collision checking.
-    http://sdk.rethinkrobotics.com/wiki/MoveIt_Tutorial
-    Moreover the package moveit_python by Michael Ferguson needs to be installed.
+   [MoveIt!](http://sdk.rethinkrobotics.com/wiki/MoveIt_Tutorial) is used for the motion planning, manipulation and collision checking.
+   
+   Moreover the package [moveit_python](https://github.com/mikeferguson/moveit_python) by Michael Ferguson needs to be installed.
    
    ## Robot arm calibration
 
-   It is recommended to calibrate Baxter's arms for getting more precise results. On the website there are two different calibration routines which are very well described.
-    http://sdk.rethinkrobotics.com/wiki/Arm_Calibration
+   It is recommended to calibrate Baxter's arms for getting more precise results. [On the website](http://sdk.rethinkrobotics.com/wiki/Arm_Calibration) there are two different calibration routines which are very well described.
    
    ## Colour of the objects
 
@@ -64,7 +64,7 @@ To set the workstation, the tutorial from Rethink Robotics has been consulted (h
     $ rosrun image_view image_view image:=/cameras/right_hand_camera/image
 
    This command opens a window with a stream of images from Baxter's right hand camera and allows to save images by right-clicking on the display window.
-    Then the images can be analyzed with the hsvThresholder.py file. Open a new terminal and execute the python file from the location where it is saved.
+    Then the images can be analyzed with the [hsvThresholder.py file](https://github.com/saurabheights/IPExperimentTools/tree/master/AnalyzeHSV). Open a new terminal and execute the python file from the location where it is saved.
 
     $ python hsvThresholder.py frame0000.jpg
 
@@ -105,10 +105,11 @@ The files included by this packages are:
 * file.launch: This launch file runs all the required nodes to accomplish the task.
 
 This packages must be added in the src folder from the ROS workspace and can be launched after it is built from a sourced terminal.
-$ source /opt/ros/kinetic/setup.bash
-$ source ros_ws/devel/setup.bash
-$ cd ros_ws/
-$ ./baxter.sh
-$ catkin_make
-$ roslaunch package file.launch
+
+  $ source /opt/ros/kinetic/setup.bash
+  $ source ros_ws/devel/setup.bash
+  $ cd ros_ws/
+  $ ./baxter.sh
+  $ catkin_make
+  $ roslaunch package file.launch
 
