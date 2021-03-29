@@ -10,6 +10,8 @@ role: ""
 
 # Organizations/Affiliations
 organizations:
+- name: Dept. of Computer Architecture and Computer Technology
+  url: "https://atc.ugr.es/"
 - name: Universidad de Granada
   url: "https://www.ugr.es/"
 
