@@ -35,6 +35,8 @@ content:
     tag: Deep Learning 
   - name: FPGA
     tag: FPGA
+  - name: Drones
+    tag: Drones    
   - name: Other
     tag: Demo
 
