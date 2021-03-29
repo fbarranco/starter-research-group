@@ -33,6 +33,8 @@ content:
     tag: Neuromorphic
   - name: Deep Learning
     tag: Deep Learning 
+  - name: FPGA
+    tag: FPGA
   - name: Other
     tag: Demo
 
