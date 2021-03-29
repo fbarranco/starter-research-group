@@ -1,6 +1,6 @@
 ---
 title: Object classification with the Baxter robot
-summary: This project shows the development of various classification tasks in static and dynamic environments with the Baxter robot. This robot will separate two groups of objects with different colors, positions and sizes, using the Robot Operating System (ROS Kinetic) on Ubuntu 16.04 LTS, MoveIt! and the OpenCV library for the computer vision, based on a colour filter. Apart from the Baxter Robot, we used a conveyor where pieces are to be separated while running in front of the robot in real time.
+summary: This project shows the development of various classification tasks in static and dynamic environments with the Baxter robot based on color, using also a conveyor where pieces are transported to be classified in real time.
 
 tags:
 - Robotics
