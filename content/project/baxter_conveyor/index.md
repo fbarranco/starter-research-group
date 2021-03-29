@@ -108,10 +108,10 @@ The files included by this packages are:
 
 This packages must be added in the src folder from the ROS workspace and can be launched after it is built from a sourced terminal.
 
-  $ source /opt/ros/kinetic/setup.bash
-  $ source ros_ws/devel/setup.bash
-  $ cd ros_ws/
-  $ ./baxter.sh
-  $ catkin_make
-  $ roslaunch package file.launch
+    $ source /opt/ros/kinetic/setup.bash
+    $ source ros_ws/devel/setup.bash
+    $ cd ros_ws/
+    $ ./baxter.sh
+    $ catkin_make
+    $ roslaunch package file.launch
 
