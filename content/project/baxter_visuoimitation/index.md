@@ -137,3 +137,10 @@ The main objective of the project is described in the initial section of this pa
  The next video shows a successful example of the robot imitating the operator movements. 
  
  {{< youtube V6VbvJ-t0vg >}}
+
+
+# Contact
+
+Granada
+Cristina Garrido
+tinamay299@gmail.com
