@@ -25,7 +25,7 @@ url_pdf: "http://www.umiacs.umd.edu/research/POETICON/DVSContours/resources/docs
 url_dataset: "http://www.umiacs.umd.edu/research/POETICON/DVSContours/resources/dataset/complexMotion3.zip"
 url_slides: "http://www.umiacs.umd.edu/research/POETICON/DVSContours/resources/docs/supplementary_material.pdf"
 url_poster: "http://www.umiacs.umd.edu/research/POETICON/DVSContours/resources/docs/poster_iccv.pdf"
-url_video: "http://www.umiacs.umd.edu/research/POETICON/DVSContours/resources/videos/final_dvsBdBo.mp4"
+url_video: "https://www.youtube.com/watch?v=XTeX_5awL3w"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
