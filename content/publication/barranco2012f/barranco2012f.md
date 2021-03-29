@@ -1,10 +1,10 @@
 ---
 title: "Massive parallel-hardware architecture for multiscale stereo, optical flow and image-structure computation"
 authors:
-- Matteo Tomasi
-- Mauricio Vanegas
+- Matteo Tomasi 
+- Mauricio Vanegas 
 - admin
-- Javier Diaz
+- Javier Díaz
 - Eduardo Ros
 author_notes:
 - ""
