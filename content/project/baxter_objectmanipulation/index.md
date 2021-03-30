@@ -8,6 +8,9 @@ tags:
 - Manipulation
 date: "2017-04-27T00:00:00Z"
 
+authors: 
+- Francisco Barranco
+ 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
