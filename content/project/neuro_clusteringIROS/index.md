@@ -9,6 +9,9 @@ tags:
 - Clustering
 date: "2018-04-27T00:00:00Z"
 
+authors:
+- Francisco Barranco
+
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
