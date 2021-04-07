@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Student in Information and Comunication Technologies
+role: PhD Student in Information and Communication Technologies
 
 # Organizations/Affiliations
 organizations:
@@ -26,7 +26,7 @@ interests:
 
 education:
   courses:
-  - course: PhD in Information and Comunication Technologies
+  - course: PhD in Information and Communication Technologies
     institution: Universidad de Granada
     year: Currently
   - course: MEng in Data Science
