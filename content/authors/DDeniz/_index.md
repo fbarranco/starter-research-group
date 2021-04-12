@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Student in Computer Engineering
+role: PhD Student in Information and Communication Technologies
 
 # Organizations/Affiliations
 organizations:
@@ -18,24 +18,27 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include computer vision, edge computing and activity recognition.
 
 interests:
 - Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Computer Vision
+- Activity Recognition
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Information and Communication Technologies
+    institution: Universidad de Granada
+    year: Currently
+  - course: M. Sc in Data Science
+    institution: Universidad de Granada
+    year: 2019
+  - course: BSc in Computer Science
+    institution: Universidad de Las Palmas de Gran Canaria
+    year: 2018
+  - course: BSc in Business Administration and Management
+    institution: Universidad de Las Palmas de Gran Canaria
+    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,7 +47,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'ddeniz at ugr.es'
+  link: 'mailto:danideniz@ugr.es'
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=vyzieNkAAAAJ
@@ -66,7 +69,6 @@ user_groups:
 - Researchers
 ---
 
-Daniel Deniz is a ... 
-#professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Daniel Deniz is a PhD Student in Information and Communication Technologies at the University of Granada. His research interests include computer vision, edge computing and activity recognition. He is currently working on the development of reconfigurable habit tracking systems for lifestyle monitoring using Artificial Intelligence.
 
 
