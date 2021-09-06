@@ -4,6 +4,7 @@ summary: This project integrates gesture recognition as a drone control mechanis
 
 tags:
 - Drones
+- Robotics
 - Tello Ryze
 - Gestural control
 - Gesture recognition
