@@ -56,11 +56,11 @@ links:
 - icon: github
   icon_pack: fab
   name: Visit
-  url: https://github.com/fbarranco/dvs_clustering_tracking
+  url: https://github.com/JuanIsernGhosn/Smart-Grid-Surveillance-Server
 url_code: ""
-url_pdf: "https://arxiv.org/abs/1807.02851"
+url_pdf: "https://arxiv.org/abs/2011.14416"
 url_slides: ""
-url_video: "https://www.youtube.com/watch?v=p-eapPg5BuE"
+url_video: ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -70,25 +70,37 @@ url_video: "https://www.youtube.com/watch?v=p-eapPg5BuE"
 #  slides: example
 ---
 
-# Objectives
+## Objectives
 
-This package implements a clustering and tracking using Kalman filters for DVS data (event based camera). 
+BIO-PERCEPTION is focused on the development of a new paradigm for vision systems that integrates neuromorphic event-based sensors. Additionally, we propose the validation of this new model by building smart vision systems for autonomous navigation, proposing drones for that. Our specific objectives (SO) are detailed next:
+
+*SO1. Development of a new model for event-based 3D perception.*
+As mentioned before in the state of the art, some works have addressed the task previously with event-based sensors [BEN12, BEN14, BAR14]. However, their results are still very poor, reaching only low performance. Moreover, most of these methods build images out of accumulation of events for prefixed time intervals and apply classic methods to these artificial images. This severely harms the performance and does not take advantage of the main feature of these sensors, their high-temporal resolution or low latency.
+We propose the development and evaluation of a fully event-driven model, although it will also include the possibility of integrating conventional synchronous images to improve accuracy. The models for motion object contours will be applied here [FER01, BAR14], to estimate the image motion. Using the image motion, 3D pose and velocity can also be subsequently estimated [FER01, BAR16] and, independently moving objects (IMOs) detected in the scene. Lastly, the accuracy of our solution will be evaluated using novel benchmarks and datasets that integrate both events and images. 
+
+*SO2. Development of a new model for event-based object segmentation.* 
+Although the 3D perception module provides sparse results, object segmentation is an image-based task, which implies the need for a centralized model of the scene. In SO2, our first goal is to come up with a linking mechanism to group events and be able to distinguish different depth layers (separated by contours). Our group has already developed some models such as in [BAR15b] that could not reach real-time performance or the required accuracy. Given the popularity of Machine Learning approaches and the expertise of our Department in efficient machine learning applications, we will consider the use of Deep Learning, to develop architectures based on CNNs (Convolutional Neural Networks). These networks have proven their success in this task for images [SHE15]. After separating events from contours and events generated due to the textured regions of the objects in the scene, we will group them together in sets according to the object these events belong to. We also propose the implementation of an efficient mechanism to do that. As in SO1, we will produce new benchmarks and datasets to assess the accuracy of our models, and compare conventional and event-based approaches. 
+
+*SO3. Real-time processing architectures with event-based neuromorphic sensors.*
+In the motivation we already stated that autonomy cannot be reached until perception-action loops are closed in real-time. This means that the visual perception processing should be fast enough to allow agents to interact with the dynamic real-world. Moreover, in order to embed the visual processing in our autonomous agents, we should consider platforms to integrate our processing architectures on. In order to do that, we propose the use of hardware accelerators. Our group has long expertise on optimized-CPU implementations, and GPUs, or FPGAs [BAR14b, NAV17]. Also, we will consider integrated solutions with the existing UAV platforms and their embedded processors. Models and implementations designed according to SO1 and SO2 will be adapted to the non-functional requirements related to performance, latency, or memory imposed by the selected architecture.
+
+*SO4. Demonstrator: Autonomous drone platform.*
+Finally, we also consider that the validation of the proposed models has to be shown in the framework of autonomous navigation tasks. This application allows us to demonstrate the maximum potential of the neuromorphic sensors, specifically regarding the high-temporal resolution and low latency, for example with high-speed maneuvers. Our goal in SO4 is to develop a first semi-autonomous platform that shows navigation with a minimum intervention of a human pilot for the first case, and that validates tasks such as selection of targets, segmentation, or detection of independently moving objects while navigating. The second prototype will show the whole system working to do tasks completely autonomously, without human intervention, while navigating avoiding obstacles.
+
+## Bibliography
+* [BAR14a] F. Barranco, C. Fermüller, Y. Aloimonos. "Contour motion estimation for asynchronous event-driven cameras." Proceedings of the IEEE 102, no. 10 (2014): 1537-1556.
+* [BAR14b] F. Barranco, J. Diaz, B. Pino, E. Ros. "Real-time visual saliency architecture for FPGA with top-down attention modulation." IEEET on Ind. Informatics 10, 3, 726-1735, 2014.
+* [BAR15] F. Barranco, C. Fermuller, Y. Aloimonos. "Bio-inspired motion estimation with event-driven sensors." In International Work-Conference on Artificial Neural Networks, pp. 309-321, 2015.
+* [BAR16] F. Barranco, C. Fermuller, Y. Aloimonos, T. Delbruck. "A dataset for visual navigation with neuromorphic methods." Frontiers in neuroscience 10 (2016): 49.
+* [BEN12] R. Benosman, S. Ieng, C. Clercq, C. Bartolozzi, M. Srinivasan. "Asynchronous frameless event-based optical flow." Neural Networks 27 (2012): 32-37.
+* [BEN14] R. Benosman, C. Clercq, X. Lagorce, S. Ieng, C. Bartolozzi. "Event-based visual flow." IEEE transactions on neural networks and learning systems 25, no. 2 (2014): 407-417.
+* [FER01] C. Fermüller, D. Shulman, Y. Aloimonos. "The statistics of optical flow." Computer Vision and Image Understanding 82, no. 1 (2001): 1-32.
+* [NAV17] F. Naveros, J. Garrido, R. Carrillo, E. Ros, N. Luque. "Event-and time-driven techniques using parallel CPU-GPU co-processing for spiking neural networks." Front. in Neuroinf. 11 (2017): 7.
+* [SHE15] W. Shen, X. Wang, Y. Wang, X. Bai, Z. Zhang. "Deepcontour: A deep convolutional feature learned by positive-sharing loss for contour detection." CVPR, pp. 3982-3991. 2015.
 
 ## Lists of contributions: publications, datasets, and code repositories
 
-Clone or download the project. After that, first source your *ROS distro* files:
-```
-$ source /opt/ros/<your_distro>/setup.bash
-```
-
-
-## Publications
-
-If you use this work in an academic context, please cite the following publication:
-
-* F. Barranco, C. Fermuller, E. Ros: **Real-time clsutering for multi-target tracking using event-based sensors**. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, 2018. ([PDF](https://arxiv.org/pdf/1807.02851.pdf))
-
-
+* Isern, J., F. Barranco, D. Deniz, J. Lesonen, J. Hannuksela, R. R. Carrillo. **Reconfigurable cyber-physical system for critical infrastructure protection in smart cities via smart video-surveillance.** Pattern Recognition Letters 140 (2020): 303-309. [PDF](https://arxiv.org/abs/2011.14416) [CODE](https://github.com/JuanIsernGhosn/Smart-Grid-Surveillance-Server)
 
 ## Authors
 
