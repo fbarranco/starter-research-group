@@ -1,12 +1,5 @@
 ---
-title: BIO-PERCEPTION: Next generation of smart vision systems for real-time processing with bio-inspired sensors
-summary: Our goal for this project is to set up the basis for a new generation of smart autonomous agents that are able to carry out 3D
-perception in real-time, using biologically-inspired vision sensors. These sensors are based on the manner visual information is processed
-by the human eye. Rather than transmitting all the static information continuously, the retina selects the most relevant information,
-comprising it to be further processed in the visual cortex. In the very same way, these sensors independently processed all pixels and only
-trigger changes in the scene ('events') in the case a substantial difference in the intensity luminance happens over time for a specific
-location (this happens only at object contours and textures). This allows for the reduction of the transmission of redundant information and
-hence, the data bandwidth. The other key advantage is that these sensors reach very low latencies, of a few microseconds.
+title: BIO-PERCEPTION - Next generation of smart vision systems for real-time processing with bio-inspired sensors summary. Our goal for this project is to set up the basis for a new generation of smart autonomous agents that are able to carry out 3D perception in real-time, using biologically-inspired vision sensors. These sensors are based on the manner visual information is processed by the human eye. Rather than transmitting all the static information continuously, the retina selects the most relevant information, comprising it to be further processed in the visual cortex. In the very same way, these sensors independently processed all pixels and only trigger changes in the scene (*events*) in the case a substantial difference in the intensity luminance happens over time for a specific location (this happens only at object contours and textures). This allows for the reduction of the transmission of redundant information and hence, the data bandwidth. The other key advantage is that these sensors reach very low latencies, of a few microseconds. 
 
 tags:
 - Neuromorphic
