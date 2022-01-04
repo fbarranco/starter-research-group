@@ -1,6 +1,6 @@
 ---
 title: Real-Word anomaly detection in Surveillance through Semi-supervised Federated Active Learning
-summary: This project shows the deployment and research of semi-supervised deep learning models for the [anomaly detection in Surveillance videos](https://nico-cubero.github.io/Surveillance-AnomDetection-FedLearning/) deployed on a synchronous Federated Learning architecture for which training is being distributed on many nodes.
+summary: This project shows the deployment and research of semi-supervised deep learning models for the anomaly detection in Surveillance videos deployed on a synchronous Federated Learning architecture for which training is being distributed on many nodes.
 
 tags:
 - Deep Learning
