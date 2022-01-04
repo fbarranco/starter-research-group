@@ -1,6 +1,6 @@
 ---
 title: BIO-PERCEPTION - Next generation of smart vision systems for real-time processing with bio-inspired sensors 
-summary: Our goal for this project is to set up the basis for a new generation of smart autonomous agents that are able to carry out 3D perception in real-time, using biologically-inspired vision sensors. These sensors independently processed all pixels and only trigger changes in the scene (*events*) in the case a substantial difference in the intensity luminance happens over time for a specific location (this happens only at object contours and textures). This allows for the reduction of the transmission of redundant information and hence, the data bandwidth. 
+summary: Our goal for this project is to set up the basis for a new generation of smart autonomous agents that are able to carry out 3D perception in real-time, using biologically-inspired vision sensors. These sensors independently processed all pixels and only trigger changes in the scene (events) in the case a substantial difference in the intensity luminance happens over time for a specific location (this happens only at object contours and textures). This allows for the reduction of the transmission of redundant information and hence, the data bandwidth. 
 
 tags:
 - Neuromorphic
@@ -94,7 +94,7 @@ Please report problems, bugs, or suggestions to fbarranco_at_ugr_dot_es (Replace
 
 * This work was supported by the AEI through the grant PID2019-109434RA-I00 / AEI / 10.13039/501100011033.
 
-{{< figure src="aei_logo.jpg" id="AEI_logo" >}}
+{{< figure src="aei_logo.jpeg" id="AEI_logo" >}}
 
 ## License
 
