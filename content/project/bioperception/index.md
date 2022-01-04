@@ -110,6 +110,8 @@ Finally, we also consider that the validation of the proposed models has to be s
 ## Lists of contributions: publications, datasets, and code repositories
 
 * Isern, J., F. Barranco, D. Deniz, J. Lesonen, J. Hannuksela, R. R. Carrillo. **Reconfigurable cyber-physical system for critical infrastructure protection in smart cities via smart video-surveillance.** Pattern Recognition Letters 140 (2020): 303-309. [PDF](https://arxiv.org/abs/2011.14416) [CODE](https://github.com/JuanIsernGhosn/Smart-Grid-Surveillance-Server)
+* Déniz, D., G. Jimenez-Perera, R. Nolasco, J. Corral, F. Barranco. **Deep multimodal habit tracking system: A user-adaptive approach for low-power embedded systems.** Submitted (2022).
+* Isern, J., G. Jimenez-Perera, L. Medina-Valdés, P. Chaves, D. Pampliega, F. Ramos, F. Barranco. "A Cyber-Physical System for integrated remote control andprotection of smart grid critical infrastructures." Submitted (2022).
 
 ## Authors
 
