@@ -1,6 +1,5 @@
 ---
-title: BRAINAV - BRAIn-inspired visual processing for real-time
-energy-efficient autonomous NAVigation 
+title: BRAINAV BRAIn-inspired visual processing for real-time energy-efficient autonomous NAVigation 
 summary: BRAINAV builds on the integration of visual processing pipelines for energy-efficient edge processing using neuromorphic strategies, for the application of autonomous navigation. First, visual processing is crucial in perception system components and specifically, for scene awareness in navigation applications. Robotic agents require understanding their context to plan and make decisions accordingly. This is even more relevant in applications such as robotics. However, computer vision is a very demanding task in terms of resources, and effective navigation requires low latencies to close perception-action loops in real-time. Second, regarding 3D perception and scene understanding, state-of-the-art solutions are focused on accuracy performance but other qualities such as energy consumption must be also taken into account. 
 
 tags:
