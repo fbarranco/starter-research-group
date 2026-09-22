@@ -152,15 +152,6 @@ All computation is performed onboard the UAV. The platform was validated through
 
 ## Lists of contributions: publications, datasets, and code repositories
 
-# * [DEN24] Deniz, D., Ros, E., Ortigosa, E. M., & Barranco, F. (2024). **Optimized edge-cloud system for activity monitoring using knowledge distillation.** Electronics, 13(23), 4786, https://doi.org/10.3390/electronics13234786 [PDF](https://digibug.ugr.es/bitstream/handle/10481/97862/electronics-13-04786.pdf?sequence=1&isAllowed=y) [CODE](https://github.com/DaniDeniz/IndoorActionDataset) [DATA](https://github.com/DaniDeniz/IndoorActionDataset)
-# * [NOV24] Novo, A., Lobon, F., Garcia de Marina, H., Romero, S., & Barranco, F. (2024). **Neuromorphic perception and navigation for mobile robots: a review.** ACM Computing Surveys, 56(10), 1-37. https://doi.org/10.1145/3656469 [PDF](https://doi.org/10.3389/fnins.2023.1160034) 
-
-# * [NOV25] Novo, A., Fermuller, C., Rodríguez-Álvarez, M., Romero, S., & Barranco, F. (2025). **On ego-motion estimation from event-inertial-aided normal flow fields.** Neuromorphic Computing and Engineering IOP, Under Review (second)
-# * [DEN25] Deniz, D., Ros, E., Ortigosa, E. M., & Barranco, F. (2025). **Efficient reconfigurable system for home monitoring of the elderly via action recognition.** Engineering Applications of Artificial Intelligence, Under Review (second)
-# * [SAL25] Salinas, I., Deniz, D., Fermüller, C., Novo, A., & Barranco, F. (2025). **Event-based vision for online inference of fine-grained manipulation actions.** Nature Communications. Under Review
-# * [JIM25] Jimenez-Perera, G., Valencia-Vidal, B.,  Luque, N. R., Ros, E., & Barranco, F. (2025). **Informed federated learning to train robotic arm inverse dynamic model.** IEEE Robotics and Automation Letters, Under review
-
-
 * [DEN24] Deniz, D., Ros, E., Ortigosa, E. M., & Barranco, F. (2024). **Optimized edge-cloud system for activity monitoring using knowledge distillation.** Electronics, 13(23), 4786. [DOI](https://doi.org/10.3390/electronics13234786)
 
 * [NOV24] Novo, A., Lobon, F., Garcia de Marina, H., Romero, S., & Barranco, F. (2024). **Neuromorphic perception and navigation for mobile robots: a review.** ACM Computing Surveys, 56(10), 1-37. [DOI](https://doi.org/10.1145/3656469)
@@ -207,14 +198,11 @@ All computation is performed onboard the UAV. The platform was validated through
 ## Authors
 
 * **Francisco Barranco** — Principal Investigator, University of Granada, CVRLab / CITIC-UGR
-# Please report problems, bugs, or suggestions to fbarranco_at_ugr_dot_es (Replace _at_ by @ and _dot_ by .).
 
 ## Acknowledgments
 
 * This work was supported by the National Project PID2022-141466OB-I00 funded by MICIU/AEI/10.13039/501100011033 and by ERDF/EU.
 {{< figure src="aei_logo.png" id="AEI_logo" >}}
-
-## License
 
 ## License
 
