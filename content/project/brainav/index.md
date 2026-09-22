@@ -35,14 +35,7 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
----
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-#  slides: example
----
+
 
 * This work was supported by the National Project PID2022-141466OB-I00 funded by MICIU/AEI/10.13039/501100011033 and by ERDF/EU.
 {{< figure src="aei_logo.png" id="AEI_logo" >}}
@@ -134,21 +127,21 @@ All computation is performed onboard the UAV. The platform was validated through
 {{< figure src="brainav_flight_test.jpg" caption="UAV platform and outdoor autonomous flight experiments at the Cubillas test area." >}}
 
 ## Background references
-[BAR14a] F. Barranco, C. Fermüller, Y. Aloimonos. "Contour motion estimation for asynchronous event-driven cameras." Proceedings of the IEEE 102, no. 10 (2014): 1537-1556.
+* [BAR14a] F. Barranco, C. Fermüller, Y. Aloimonos. "Contour motion estimation for asynchronous event-driven cameras." Proceedings of the IEEE 102, no. 10 (2014): 1537-1556.
 
-[BAR21] F. Barranco, C. Fermüller, Y. Aloimonos, E. Ros. "Joint direct estimation of 3D geometry and 3D motion using spatio temporal gradients." Pattern Recognition, 113, 2021.
+* [BAR21] F. Barranco, C. Fermüller, Y. Aloimonos, E. Ros. "Joint direct estimation of 3D geometry and 3D motion using spatio temporal gradients." Pattern Recognition, 113, 2021.
 
-[DAV21] S. Davidson, S. B. Furber. "Comparison of artificial and spiking neural networks on digital hardware." Frontiers in Neuroscience 15 (2021): 651141.
+* [DAV21] S. Davidson, S. B. Furber. "Comparison of artificial and spiking neural networks on digital hardware." Frontiers in Neuroscience 15 (2021): 651141.
 
-[DEN23] D. Deniz, J. Isern, J. Solanti, P. Jääskeläinen, P. Hnětynka, L. Bulej, E. Ros, F. Barranco. "Efficient reconfigurable CPS for monitoring the elderly at home via Deep Learning." Journal of Signal Processing Systems, (2023). 
+* [DEN23] D. Deniz, J. Isern, J. Solanti, P. Jääskeläinen, P. Hnětynka, L. Bulej, E. Ros, F. Barranco. "Efficient reconfigurable CPS for monitoring the elderly at home via Deep Learning." Journal of Signal Processing Systems, (2023). 
 
-[ISE23] J. Isern, G. Jimenez-Perera, L. Medina-Valdés, P. Chaves, D.Pampliega F. Ramos, F. Barranco. "A Cyber-Physical System for integrated remote control and protection of smart grid critical infrastructures.", Journal of Signal Processing Systems, 2023.
+* [ISE23] J. Isern, G. Jimenez-Perera, L. Medina-Valdés, P. Chaves, D.Pampliega F. Ramos, F. Barranco. "A Cyber-Physical System for integrated remote control and protection of smart grid critical infrastructures.", Journal of Signal Processing Systems, 2023.
 
-[LIA21] T. Liang, J. Glossner, L. Wang, S. Shi, X. Zhang. "Pruning and quantization for deep neural network acceleration: A survey." Neurocomputing 461 (2021): 370 -403.
+* [LIA21] T. Liang, J. Glossner, L. Wang, S. Shi, X. Zhang. "Pruning and quantization for deep neural network acceleration: A survey." Neurocomputing 461 (2021): 370 -403.
 
-[VAD22] S. Vadera, S. Ameen. "Methods for pruning deep neural networks." IEEE Access 10 (2022): 63280-63300.
+* [VAD22] S. Vadera, S. Ameen. "Methods for pruning deep neural networks." IEEE Access 10 (2022): 63280-63300.
 
-[VID18] A. Vidal, H. Rebecq, T. Horstschaefer, D. Scaramuzza. "Ultimate SLAM? Combining events, images, and IMU for robust visual SLAM." IEEE Robotics and Automation 3, no. 2 (2018).
+* [VID18] A. Vidal, H. Rebecq, T. Horstschaefer, D. Scaramuzza. "Ultimate SLAM? Combining events, images, and IMU for robust visual SLAM." IEEE Robotics and Automation 3, no. 2 (2018).
 
 ## Lists of contributions: publications, datasets, and code repositories
 
@@ -176,17 +169,17 @@ All computation is performed onboard the UAV. The platform was validated through
 
 ### Datasets and open-source resources
 
-* **IndoorActionDataset** — Dataset associated with [DEN24].  
+* **IndoorActionDataset** — Dataset associated with [DEN24]. 
   [DATA](https://github.com/DaniDeniz/IndoorActionDataset)
 
-* **CIAV Dataset** — Dataset associated with [DEN25].  
+* **CIAV Dataset** — Dataset associated with [DEN25].
   [DATA](https://github.com/DaniDeniz/CIAV-dataset)
 
-* **Efficient action recognition models** — Code and neural-network weights associated with [DEN25].  
+* **Efficient action recognition models** — Code and neural-network weights associated with [DEN25]. 
   [CODE](https://github.com/DaniDeniz/efficient-action-recognition-for-home-monitoring)
 
-* **Baxter robot dataset for learning dynamic models** — Dataset associated with [JIM25], released under CC BY 4.0.  
-  [DATA](https://zenodo.org/records/17035193)  
+* **Baxter robot dataset for learning dynamic models** — Dataset associated with [JIM25], released under CC BY 4.0. 
+  [DATA](https://zenodo.org/records/17035193) 
   [CODE](https://github.com/GabriJP/ifl_baxter.git)
 
 * **E-MAD — Event-based Manipulation Action Dataset** — Dataset associated with [NOV25b]. The dataset is currently under embargo during the publication process and will be released under CC BY 4.0 after publication.
@@ -194,10 +187,9 @@ All computation is performed onboard the UAV. The platform was validated through
 * **Event-inertial ego-motion code** — Code associated with [NOV25a]. The repository will be made public after publication of the corresponding article.
 
 
-
 ## Authors
 
-* **Francisco Barranco** — Principal Investigator, University of Granada, CVRLab / CITIC-UGR
+* **Francisco Barranco** - Principal Investigator, University of Granada, CVRLab / CITIC-UGR
 
 ## Acknowledgments
 
@@ -209,12 +201,3 @@ All computation is performed onboard the UAV. The platform was validated through
 Software, datasets and other research outputs associated with BRAINAV are distributed under the licenses indicated in their corresponding repositories.
 
 Unless otherwise stated, the contents of this website are provided for scientific dissemination purposes. Please refer to each publication, dataset or software repository for its specific copyright and licensing conditions.
-
-Copyright (C) 2018 Francisco Barranco, 01/09/2018, University of Granada.
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. 
-
-You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
