@@ -131,9 +131,7 @@ The final BRAINAV demonstrator integrates the main scientific and technological 
 
 All computation is performed onboard the UAV. The platform was validated through real outdoor flights at the Cubillas test area.
 
-{{< figure src="brainav_uav_final.jpg" caption="Final BRAINAV autonomous UAV demonstrator." >}}
-
-{{< figure src="brainav_flight_test.jpg" caption="Outdoor autonomous flight experiments at the Cubillas test area." >}}
+{{< figure src="brainav_flight_test.jpg" caption="UAV platform and outdoor autonomous flight experiments at the Cubillas test area." >}}
 
 ## Background references
 [BAR14a] F. Barranco, C. Fermüller, Y. Aloimonos. "Contour motion estimation for asynchronous event-driven cameras." Proceedings of the IEEE 102, no. 10 (2014): 1537-1556.
